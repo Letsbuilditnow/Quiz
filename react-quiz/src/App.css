@@ -47,6 +47,9 @@
     height:90%;
     width: 90%;
     background-color: bisque;
+}.section-game-area button{
+    width: 50%;
+    align-self: center;
 }.section-questions{
   
     background-color: aliceblue;
