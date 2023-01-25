@@ -28,7 +28,7 @@ React.useEffect(()=>{
           <div className="section-game-area">
    {questionsElements}
    
-   <button>submit</button>
+   <button className='submit-button'>submit</button>
           </div>
         </div>
       </div>
