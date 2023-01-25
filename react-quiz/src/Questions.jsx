@@ -1,70 +1,21 @@
+import Buttons from "./Buttons";
 import React from "react";
 
 function Questions() {
+ let arr=[1,2,3,4]
+  let buttonElements=arr.map(a=><Buttons/>)
   return (
     <>
-      <div className="section-page">
-        <div className="section-game">
-          <div className="section-game-area">
+     
             <div className="section-questions">
               <div className="section-question">
                 <h4>choose a number</h4>
               </div>
               <div className="section-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+              {buttonElements}
               </div>
             </div>
-            <div className="section-questions">
-              <div className="section-question">
-                <h4>choose a number</h4>
-              </div>
-              <div className="section-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-              </div>
-            </div>
-            <div className="section-questions">
-              <div className="section-question">
-                <h4>choose a number</h4>
-              </div>
-              <div className="section-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-              </div>
-            </div>
-            <div className="section-questions">
-              <div className="section-question">
-                <h4>choose a number</h4>
-              </div>
-              <div className="section-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-              </div>
-            </div>
-            <div className="section-questions">
-              <div className="section-question">
-                <h4>choose a number</h4>
-              </div>
-              <div className="section-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-              </div>
-            </div>
-            <button>submit</button>
-          </div>
-        </div>
-      </div>
+
     </>
   );
 }
