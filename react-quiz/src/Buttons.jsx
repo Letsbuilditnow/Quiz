@@ -1,12 +1,14 @@
 import React from "react";
 
-function buttons() {
+function Buttons(props) {
   return (
     <>
-      <button>1</button>
+      
+      <button>{props.options}</button>
+          
       
     </>
   );
 }
 
-export default buttons;
+export default Buttons;

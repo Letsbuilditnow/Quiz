@@ -14,10 +14,11 @@ React.useEffect(()=>{
   let arr=[1,2,3,4]
   let questionsElements=[]
   questionsElements = apiData.map(a=>{
-   return <Questions question={a.question}/>
+   return <Questions question={a.question} options={`${a.correct_answer},${a.incorrect_answers}`}/>
    
   }
   ) 
+  
 
   return (
      <>
