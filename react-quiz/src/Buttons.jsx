@@ -7,7 +7,7 @@ const style={
   return (
     <>
       
-      <button style={style} onClick={()=>props.call(props.id)}>{props.options}</button>
+      <button style={style}onClick={()=>props.call(props.id)} >{props.options}</button>
           
       
     </>
