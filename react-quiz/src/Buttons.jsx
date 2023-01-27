@@ -2,7 +2,7 @@ import React from "react";
 
 function Buttons(props) {
 const style={
-  backgroundColor:props.isHold?"black":"red",
+  backgroundColor:props.isHold?"white":"red",
 }
   return (
     <>

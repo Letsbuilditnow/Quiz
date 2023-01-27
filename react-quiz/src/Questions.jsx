@@ -35,6 +35,7 @@ function Questions(props) {
           <h4>{props.question}</h4>
         </div>
         <div className="section-buttons">{buttonElements}</div>
+        <br />
       </div>
     </>
   );
